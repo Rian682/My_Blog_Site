@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg2.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>I’m a Python developer with a passion for exploring the boundaries of what code can do. Whether it’s creating sleek web applications, solving intricate algorithms, or even experimenting with projects like thrust vector-controlled rockets, I enjoy tackling challenges that push my creativity and skills. With experience in tools like Flask, Bootstrap, and web scraping, I’m always looking for ways to make my work impactful and efficient.</p>
+
+        <p>When I’m not coding, you’ll find me diving into PC games, folding intricate origami designs, or indulging in anime marathons. These hobbies remind me to stay curious and balanced, blending focus with fun. I like to think of myself as someone who appreciates both precision and a touch of playfulness, whether it’s in writing clean code or crafting the perfect paper crane.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
