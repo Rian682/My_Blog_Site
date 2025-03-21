@@ -160,8 +160,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# Hiding database
-blog.db
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
